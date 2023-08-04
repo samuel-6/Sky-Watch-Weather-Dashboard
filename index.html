@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+    <meta charset="UTF-8" />
+    <title>Sky Watch! ☀️</title>
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+
+    </head>
+
+    <body>
+    
+        <header class="flex justify-center items-center h-24 bg-gradient-to-r from-indigo-500 to-indigo-900">
+
+            <div>
+
+                <h1 class="font-mono text-4xl text-white font-black">Sky Watch</h1>
+
+            </div>
+
+        </header>
+
+        <div class="flex flex-row mt-5 gap-6">
+
+            <aside>
+
+                <section class="ml-2 border-b-2 border-solid border-black">
+
+                    <section id="searchText">
+
+                        <h1 class="font-mono font-black text-3xl text-black mb-2">Search for a City:</h1>
+
+                    </section>
+
+                    <section id="cityBox" class="cursor-text font-mono text-xl border-solid border-2 border-black py-2 rounded pl-2 mb-4">
+
+                        <input id="cityInput" type="text" value="San Diego"/>
+
+                    </section>
+
+                    <section>
+
+                        <p id="searchButton" class="font-mono mb-4 text-xl bg-indigo-500 text-white text-center rounded py-2 cursor-pointer">Search</p>
+
+                    </section>
+
+                </section>
+
+                <section id="searchHistory" class="ml-2">
+
+                    <div id="placeHolder1" class="my-4 font-mono bg-gray-500 text-center py-2 cursor-pointer">
+
+                        <p>Atlanta</p>
+
+                    </div>
+
+                    <div id="placeHolder2" class="my-4 font-mono bg-gray-500 text-center py-2 cursor-pointer">
+
+                        <p>Denver</p>
+
+                    </div>
+
+                    <div id="placeHolder3" class="my-4 font-mono bg-gray-500 text-center py-2 cursor-pointer">
+
+                        <p>Seattle</p>
+
+                    </div>
+
+                </section>
+
+            </aside>
+
+            <main class="flex flex-grow flex-col mr-48">
+
+                <!-- Dynamic Content -->
+
+                <div id="mainView" class="pl-2 font-mono text-xl border-solid border-2 border-black mb-4">
+
+                    <div>
+
+                        <h1 class="font-mono font-black text-3xl text-black pt-2">Atlanta (9/13/2022) &#127774</h1>
+
+                    </div>
+
+                    <div id="temperatureCondition" class="py-4">
+
+                        <p>Temp: 76.62 °F</p>
+
+                    </div>
+
+                    <div id="windCondition" class="py-4">
+
+                        <p>Wind: 8.43 MPH</p>
+
+                    </div>
+
+                    <div id="humidityCondition" class="py-4">
+
+                        <p>Humidity: 44 %</p>
+
+                    </div>
+
+                </div>
+
+                <div id="5dayForecast">
+
+                    <div class="font-mono text-3xl font-black">
+
+                        <h2>5-Day Forecast:</h2>
+
+                    </div>
+
+                    <div class="flex flex-row justify-between">
+
+                        <div id="dynamicCard1" class="bg-gray-900 font-mono text-2xl text-white pl-2 pt-1 pr-4 pb-16">
+
+                            <h3 class="font-black">9/14/2022</h3>
+                            <h4 class="py-2 text-4xl pl-4">☁️</h4>
+                            <p class="py-2">Temp: 63.55 °F</p>
+                            <p class="py-2">Wind: 3.84 MPH</p>
+                            <p class="py-2">Humidity: 63 %</p>
+
+                        </div>
+
+                        <div id="dynamicCard2" class="bg-gray-900 font-mono text-2xl text-white pl-2 pt-1 pr-4 pb-16">
+
+                            <h3 class="font-black">9/14/2022</h3>
+                            <h4 class="py-2 text-4xl pl-4">☁️</h4>
+                            <p class="py-2">Temp: 63.55 °F</p>
+                            <p class="py-2"> Wind: 3.84 MPH</p>
+                            <p class="py-2">Humidity: 63 %</p>
+
+                        </div>
+
+                        <div id="dynamicCard3" class="bg-gray-900 font-mono text-2xl text-white pl-2 pt-1 pr-4 pb-16">
+
+                            <h3 class="font-black">9/14/2022</h3>
+                            <h4 class="py-2 text-4xl pl-4">☁️</h4>
+                            <p class="py-2">Temp: 63.55 °F</p>
+                            <p class="py-2">Wind: 3.84 MPH</p>
+                            <p class="py-2">Humidity: 63 %</p>
+
+                        </div>
+
+                        <div id="dynamicCard4" class="bg-gray-900 font-mono text-2xl text-white pl-2 pt-1 pr-4 pb-16">
+
+                            <h3 class="font-black">9/14/2022</h3>
+                            <h4 class="py-2 text-4xl pl-4">☁️</h4>
+                            <p class="py-2">Temp: 63.55 °F</p>
+                            <p class="py-2">Wind: 3.84 MPH</p>
+                            <p class="py-2">Humidity: 63 %</p>
+
+                        </div>
+
+                        <div id="dynamicCard5" class="bg-gray-900 font-mono text-2xl text-white pl-2 pt-1 pr-4 pb-16">
+
+                            <h3 class="font-black">9/14/2022</h3>
+                            <h4 class="py-2 text-4xl pl-4">☁️</h4>
+                            <p class="py-2">Temp: 63.55 °F</p>
+                            <p class="py-2">Wind: 3.84 MPH</p>
+                            <p class="py-2">Humidity: 63 %</p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </main>
+
+        </div>
+
+    </body>
+
+    <footer>
+
+        <script src="../Assets/script.js"></script>
+
+    </footer>
+
+</html>
