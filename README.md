@@ -28,7 +28,9 @@ To run the Weather Dashboard locally, follow these steps:
 5. As you search for more cities, the search history will be populated with the entered cities, allowing you to click on any city in the search history to view its current and future weather conditions again.
 
 Example screenshot:
-![Weather Dashboard Screenshot](assets/images/screenshot.png)
+![Weather Dashboard Screenshot](public/assets/images/screenshot.png)
+
+Link to live page: https://samuel-6.github.io/Sky-Watch-Weather-Dashboard/
 
 ## Credits
 
